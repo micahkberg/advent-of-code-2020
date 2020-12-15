@@ -2,7 +2,9 @@
 """
 Created on Sat Dec 12 08:07:21 2020
 
-@author: bobth
+@author: micah
+
+advent of code 12/11/2020
 """
 
 
