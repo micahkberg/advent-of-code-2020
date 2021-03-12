@@ -7,6 +7,8 @@ Created on Thu Dec 17 09:08:28 2020
 advent of code 12/17/2020
 
 part 2 (see 17-0 for part 1)
+
+this one didn't run super fast, maybe there is a way to speed it up a bit...
 """
 
 filename = "day17.txt"
@@ -45,6 +47,8 @@ def get_neighbors(cube):
 def cycle(active_cube_list):
     new_active_cubes = []
     neighborliness = {}
+    
+    
     for cube in active_cube_list:
         for neighbor in get_neighbors(cube):
             if neighbor in list(neighborliness.keys()):
